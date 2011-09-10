@@ -23,17 +23,12 @@ import org.xwiki.gwt.dom.client.Document;
 import org.xwiki.gwt.dom.client.IFrameElement;
 
 /**
- * Extends {@link ReloaderImpl} with implementation for Internet Explorer browsers.
+ * Extends {@link ReloaderImpl} for older versions of the Internet Explorer browser (6, 7 and 8).
  * 
  * @version $Id$
  */
-public class ReloaderImplIE extends ReloaderImpl
+public class ReloaderImplIEOld extends ReloaderImpl
 {
-    /**
-     * {@inheritDoc}
-     * 
-     * @see ReloaderImpl#unloadIFrameElement(IFrameElement)
-     */
     @Override
     public void unloadIFrameElement(IFrameElement iFrame)
     {
