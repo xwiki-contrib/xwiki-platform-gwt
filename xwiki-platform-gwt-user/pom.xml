@@ -33,7 +33,7 @@
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-gwt-dom</artifactId>
-      <version>${platform.version}</version>
+      <version>${project.version}</version>
       <!-- Only needed at build time -->
       <scope>provided</scope>
     </dependency>
