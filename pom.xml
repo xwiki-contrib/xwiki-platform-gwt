@@ -25,12 +25,16 @@
   <parent>
     <groupId>org.xwiki.platform</groupId>
     <artifactId>xwiki-platform-core</artifactId>
-    <version>9.7-SNAPSHOT</version>
+    <version>9.6-rc-1</version>
   </parent>
   <artifactId>xwiki-platform-gwt</artifactId>
+  <version>9.7-SNAPSHOT</version>
   <name>XWiki Platform - GWT - Parent POM</name>
   <packaging>pom</packaging>
   <description>Parent POM for the GWT modules</description>
+  <properties>
+    <xwiki.enforcer.skip>true</xwiki.enforcer.skip>
+  </properties>
   <modules>
     <module>xwiki-platform-gwt-api</module>
     <module>xwiki-platform-gwt-dom</module>
