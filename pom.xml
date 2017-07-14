@@ -33,6 +33,7 @@
   <packaging>pom</packaging>
   <description>Parent POM for the GWT modules</description>
   <properties>
+    <!-- Skip ValidateDependencyVersion (expects project.version instead of platform.version) -->
     <xwiki.enforcer.skip>true</xwiki.enforcer.skip>
   </properties>
   <modules>
